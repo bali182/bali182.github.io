@@ -6,8 +6,11 @@
   <link href="css/bootstrap-theme.css" rel='stylesheet' type='text/css'>
   <link href="css/styles.css" rel='stylesheet' type='text/css'>
   <link href="css/font-awesome.css" rel='stylesheet' type='text/css'>
+  <link href="css/scrolling-nav.css" rel='stylesheet' type='text/css'>
   <script src="js/jquery-2.2.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/scrolling-nav.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
 </head>
 
 <body>
@@ -25,9 +28,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active page-scroll"><a href="#">Home</a></li>
+            <li><a class="page-scroll" href="#about">About</a></li>
+            <li><a class="page-scroll" href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -235,6 +238,7 @@
           <span class="contaxt-info-text thin-text"><a class="link" href="https://www.linkedin.com/in/edesbalazs">linkedin.com/in/edesbalazs</a></span>
         </div>
       </div>
+      <div class="margin-footer"></div>
     </div>
   </div>
 </body>
