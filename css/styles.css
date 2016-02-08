@@ -1,0 +1,166 @@
+span, h1, h2, h3, h4, h5, a, li, div {
+  font-family: Lato;
+}
+
+.btn:focus {
+  outline: none !important;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.gray-text {
+  color: #999;
+}
+
+.thin-text {
+  font-weight: 300;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.text {
+  font-size: 1.4em;
+}
+
+.subtext {
+  font-size: 1.3em;
+}
+
+.dark {
+  background-color: #1b1c1d;
+}
+
+.dark .link, .dark .link:visited, .dark .link:focus {
+  color: #fff;
+}
+
+.dark .link:hover,  {
+  color: #999;
+  text-decoration: underline;
+}
+
+.header {
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.header-button-bar {
+  margin-top: 50px;
+}
+
+.header-container {
+  padding-bottom: 100px;
+}
+
+.circle-avatar {
+  /* make it responsive */
+  max-width: 100%;
+  width:100%;
+  height:auto;
+  display:block;
+  /* div height to be the same as width */
+  padding-top:100%;
+
+  /* make it a circle */
+  border-radius:50%;
+
+  /* Centering on image`s center */
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+
+  /* it makes the clue thing, takes smaller dimention to fill div */
+  background-size: cover;
+
+  /* it is optional, for making this div centered in parent */
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.avatar-container {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+}
+
+.icon-header {
+  font-size: 1.4em !important;
+}
+
+.icon-circle {
+  color: #1b1c1d;
+  border-radius: 100%;
+  background: #fff;
+  min-width: 50px;
+  min-height: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+.inverse-circle {
+  background-color: #1b1c1d;
+  color: #fff;
+}
+
+.contact-info-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.contaxt-info-text {
+  font-size: 1.8em;
+}
+
+.label-dark {
+  background-color: #1b1c1d;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.margin-top-s {
+  margin-top: 10px;
+}
+
+.margin-top-m {
+  margin-top: 30px;
+}
+
+.margin-top-l {
+  margin-top: 50px;
+}
+
+.margin-top-xl {
+  margin-top: 70px;
+}
+
+.margin-bottom-s {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-m {
+  margin-bottom: 30px;
+}
+
+.margin-bottom-l {
+  margin-bottom: 50px;
+}
+
+.margin-bottom-xl {
+  margin-bottom: 70px;
+}
