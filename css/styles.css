@@ -133,6 +133,10 @@ span, h1, h2, h3, h4, h5, a, li, div {
   font-size: 1.5em;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none;
+}
+
 .margin-top-s {
   margin-top: 10px;
 }
