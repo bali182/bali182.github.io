@@ -23,6 +23,8 @@ function replaceNonPdfElements() {
     const element = toRemove[i];
     element.parentNode.removeChild(element);
   }
+  const footer = this.querySelectorAll('#contact');
+  footer.className = "";
   return this;
 }
 
