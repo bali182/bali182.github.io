@@ -128,7 +128,7 @@ span, h1, h2, h3, h4, h5, a, li, div {
   background-color: #1b1c1d;
   color: #fff;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 24px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
