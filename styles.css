@@ -1,0 +1,59 @@
+.body {
+  height: 100vh !important;
+  width: 100vw !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 170px 40px 40px 40px;
+}
+
+.card * {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.name {
+  display: block;
+  font-size: 3.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ig {
+  text-align: center;
+}
+
+.link,
+link:hover,
+link:visited,
+link:active {
+  font-size: 1em;
+  color: #333;
+  text-decoration: none;
+}
+
+.picture {
+  position: absolute;
+  top: -150px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-size: 100%;
+  border: 20px solid white;
+  background-image: url("/img.png");
+}
